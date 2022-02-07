@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T04:05:10.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" version="16.5.3" etag="xWbVsU1NFP6FGiANCDZ7" type="github"><diagram id="K8tBeMQh9IbKWtQcwn7P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-07T04:18:06.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.43" etag="j0qUNTjQYlfe1w84RWjc" version="16.5.3" type="github">
+  <diagram id="K8tBeMQh9IbKWtQcwn7P" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-1" value="Nel&#39;s Croquette Business Whatsapp API and Gojek API integration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5-7GdGMjwlSb2nJbU-Rv-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="250" as="sourcePoint" />
+            <mxPoint x="140" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-4" value="Business Flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-5" value="Receiving Message from User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-6" value="Receiving order from User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-7" value="Order details:&lt;br&gt;name&lt;br&gt;phone number&lt;br&gt;sending address&lt;br&gt;order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-8" value="confirmation (of order) to user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-9" value="confirmation content:&lt;br&gt;name&lt;br&gt;phone number&lt;br&gt;sending address&lt;br&gt;order details&lt;br&gt;price&lt;br&gt;sending fee" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="39" y="720" as="sourcePoint" />
+            <mxPoint x="800" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-11" value="Possible Error within each step" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-12" value="receiving payment from user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-13" value="input:&lt;br&gt;image?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="380" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-14" value="confirmation of payment from user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-15" value="content:&amp;nbsp;&lt;br&gt;previous confirmation data + reservation number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="380" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-16" value="&lt;ul&gt;&lt;li&gt;Whatsapp API for autochat&lt;/li&gt;&lt;li&gt;Whatsapp API to call triggers to server api&lt;/li&gt;&lt;li&gt;Gojek API to calculate shipping fee&lt;/li&gt;&lt;li&gt;Image recognition to validate payment&amp;nbsp;&lt;/li&gt;&lt;li&gt;Whatsapp API to diferentiate auto reply messages and one that needs to be handled by user&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="860" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="800" as="sourcePoint" />
+            <mxPoint x="800" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5-7GdGMjwlSb2nJbU-Rv-18" value="Required technologies / API for each step" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="760" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

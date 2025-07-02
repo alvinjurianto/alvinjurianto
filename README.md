@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @alvinjurianto, a front-end developer based in Tokyo, Japan! 
+- 👋 Hi, I’m @alvinjurianto, a front-end developer based in Sydney, Australia! Previously dwelling in Tokyo.
 - 👀 I’m interested in learning more about visual design via code. 
 - 🌱 I’m currently learning React
 
